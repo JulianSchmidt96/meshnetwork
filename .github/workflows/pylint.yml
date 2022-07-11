@@ -20,5 +20,5 @@ jobs:
         pip install pylint
         pip install pandas
     - name: Analysing the code with pylint
-      run: |
+      run: 
         pylint $(git ls-files '*.py') --disable=missing-docstring
