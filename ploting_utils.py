@@ -31,6 +31,7 @@ def plot_cdf(data,x_label, figsize=(10,5), alpha=0.5):
     plt.show()
 
 
+
 def plot_metric(data,y_label, figsize=(10,5), alpha=0.5):
     """
     _summary_
